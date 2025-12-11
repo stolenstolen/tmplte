@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "vite": "^7.2.7"
+  },
+  "name": "pai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.25.12",
+    "fdir": "^6.5.0",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.3",
+    "postcss": "^8.5.6",
+    "prettier": "^3.7.4",
+    "rollup": "^4.53.3",
+    "source-map-js": "^1.2.1",
+    "stylelint": "^16.26.1",
+    "tinyglobby": "^0.2.15"
+  },
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier --write './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint './**/*.{css,scss}'",
+    "fix": "prettier --write './**/*.{html,css,js}' && stylelint --fix './**/*.{css,scss}'",
+    "checkall": "prettier --check './**/*.{html,css,js}' && stylelint './**/*.{css,scss}'",
+    "fixall": "prettier --write './**/*.{html,css,js}' && stylelint --fix './**/*.{css,scss}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
